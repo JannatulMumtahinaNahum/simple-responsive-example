@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid Area Layout</title>
+    <link rel="stylesheet" href="styles/layout.css">
+    <style>
+        .header, .nav, .main, .sidebar, .advertise, .footer{
+            background-color: navajowhite;
+            border: 2px solid tomato;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body class="container">
+    <header class="header">
+        <h3>The header</h3>
+    </header>
+    <nav class="nav">
+        <ul>
+            <!-- li*3>a{Nav-$} -->
+            <li><a href="">Nav-1</a></li>
+            <li><a href="">Nav-2</a></li>
+            <li><a href="">Nav-3</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <!-- article*2>h3{Main Article $}+p>lorem -->
+        <article>
+            <h3>Main Article 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptate maiores sunt. Autem, deleniti quis alias deserunt dolor est officiis aliquam praesentium ullam libero velit, dolorum, odit non iure quisquam?</p>
+        </article>
+        <article>
+            <h3>Main Article 2</h3>
+            <p>Reprehenderit, labore dignissimos commodi autem ipsam vel soluta saepe ab ratione vero, iure ipsum veniam quos quas animi cum atque dolorem! Numquam perferendis architecto optio consequuntur quia dolor ducimus aperiam.</p>
+        </article>
+    </main>
+        <div class="sidebar">
+            <h4>Sidebar</h4>
+        </div>
+        <div class="advertise">
+            <h4>Advertise</h4>
+        </div>
+    
+    <footer class="footer">
+       <h3>The Footer</h3>
+    </footer>
+</body>
+</html>
